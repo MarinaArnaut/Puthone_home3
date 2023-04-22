@@ -1,0 +1,5 @@
+My_array_A = []
+for i in range (5)
+N = int (input)
+a.append(i)
+print(a)

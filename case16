@@ -1,5 +1,5 @@
-My_array_A = []
-for i in range (5)
-N = int (input)
-a.append(i)
-print(a)
+N = int(input("Введите размер массива: "))
+print("Элементы массива: ")
+lst = [int(input()) for i in range(N)]
+x = int(input("Число х:"))
+print(f"Число {x} встречается в массиве {lst.count(x)} раз")

@@ -1,5 +1,0 @@
-N = int(input("Введите размер массива: "))
-print("Элементы массива: ")
-lst = [int(input()) for i in range(N)]
-x = int(input("Число х:"))
-print(f"Число {x} встречается в массиве {lst.count(x)} раз")
